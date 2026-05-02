@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Product Page</title>
+  <link rel="stylesheet" href="styles/product.css">
+</head>
+<body>
+<nav>
+  <div class="logo">
+    <a href="Home.html">
+            <img src="Images/logo/Bouquet-logo-10.svg" alt="Logo" width="150" height="150">
+    </a>
+  </div>
+
+  <div class="nav-right">
+    <ul class="navbar">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+    </ul>
+    <a href="cart.html" class="cart-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 
+          1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 
+          0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 
+          7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 
+          10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 
+          .75 0Zm7.5 0a.375.375 0 1 1-.75 0 
+          .375.375 0 0 1 .75 0Z" />
+      </svg>
+      <span class="cart-count">0</span>
+    </a>
+  </div>
+</nav>
+
+
+  <div class="container">
+    <div class="product-container">
+      <div class="product-gallery">
+        <div class="product-img">
+          <img src="Images/product-imgs/product-1/IMG_7285.JPG" alt="Bouquet 1">
+        </div>
+          <div class="product-imgs">
+           <div class="img">
+            <img  src="Images/product-imgs/product-1/IMG_7285.JPG" alt="">
+           </div>
+           <div class="img">
+            <img src="Images/product-imgs/product-1/IMG_7281.JPG" alt="">
+           </div>
+           <div class="img">
+            <img src="Images/product-imgs/product-1/IMG_7286.JPG" alt="">
+           </div>
+           <div class="img">
+            <img src="Images/product-imgs/product-1/IMG_7330.JPG" alt="">
+           </div>
+          </div>
+      </div>
+      
+      <div class="product-details">
+        <h2>Rose of 1 - Pink</h2>
+        <h3>£4.99</h3>
+        <h4>Description</h4>
+        <p>Soft and Dreamy for the Tender Moments A gentle arrangement of blush pinks and creamy whites, this bouquet evokes timeless romance. Inspired by spring garden blooms, each flower is crafted to look effortlessly real — but lasts forever. Perfect for weddings, anniversaries, or simply to add a soft, loving touch to your space.</p>
+        <div class="qty-add">
+          <div class="qty-controls">
+            <button class="minus">-</button>
+           <p class="qty-no">1</p>
+            <button class="add">+</button>
+          </div>
+          <div class="add-btn">
+            <button 
+            class="add-to-cart"
+            data-id="1"
+            data-name="Rose Of 1 - Pink"
+            data-price="4.99"
+            data-image="Images/product-imgs/product-1/IMG_7285.JPG"
+            data-image-set="Images/product-imgs/product-1/IMG_7285.JPG,Images/product-imgs/product-1/IMG_7281.JPG,Images/product-imgs/product-1/IMG_7286.JPG,Images/product-imgs/product-1/IMG_7330.JPG">
+            Add to Cart
+          </button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="related-products">
+      <h3><i>You may also like...</i></h3>
+      <div class="related-imgs">
+
+      </div>
+    </div>
+  </div>
+
+    <div class="toast-noti">
+    <p>Item added to cart!</p>
+    <button class="close-btn">X</button>
+    <div class="toast-progress"></div>
+  </div>
+</body>
+
+<script src="scripts/product.js"></script>
+
+</html>

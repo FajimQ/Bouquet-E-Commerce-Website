@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="stylesheet" href="styles/cart.css">
+</head>
+<body>
+  <nav>
+  <div class="logo">
+    <a href="Home.html">
+            <img src="Images/logo/Bouquet-logo-10.svg" alt="Logo" width="150" height="150">
+    </a>
+  </div>
+
+  <div class="nav-right">
+    <ul class="navbar">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+    </ul>
+    <a href="cart.html" class="cart-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 
+          1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 
+          0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 
+          7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 
+          10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 
+          .75 0Zm7.5 0a.375.375 0 1 1-.75 0 
+          .375.375 0 0 1 .75 0Z" />
+      </svg>
+      <span class="cart-count"></span>
+    </a>
+  </div>
+</nav>
+  <div class="title">
+    <h1>
+      Shopping Cart
+    </h1>
+  </div>
+
+<div class="container">
+  <div class="cart">
+    <div class="header">
+      <div class="header-product">Product</div>
+      <div class="header-quantity">Quantity</div>
+      <div class="header-price">Price</div>
+    </div>
+
+<div class="products">
+  <div class="cart-product">
+    <div class="cart-item">
+      <div class="product-img-name">
+        <div class="img"></div>
+        <h3 class="name">Bouquet Name</h3>
+      </div>
+    <div class="quantity-controls">
+    <button class="qty-btn left">-</button>
+    <input type="number" class="quantity-range" min="1" max="10" value="1">
+    <button class="qty-btn right">+</button>
+    </div>
+    <div class="price">
+      £6.00
+    </div>
+    <div class="remove">
+      X
+    </div>
+   </div>
+ </div>
+
+  <div class="cart-product">
+    <div class="cart-item">
+      <div class="product-img-name">
+        <div class="img"></div>
+        <h3 class="name">Bouquet Name</h3>
+      </div>
+    <div class="quantity-controls">
+    <button class="qty-btn left">-</button>
+    <input type="number" class="quantity-range" min="1" max="10" value="1">
+    <button class="qty-btn right">+</button>
+    </div>
+    <div class="price">
+      £6.00
+    </div>
+    <div class="remove">
+      X
+    </div>
+   </div>
+  </div>
+</div>
+
+  <div class="price-summary">
+    <div class="sub-ship">
+      <div class="sub-tot">
+        <h4>
+          Sub-total: 
+        </h4>
+        <p class="sub-total">£18.00</p>
+      </div>
+      <div class="shipping">
+        <h4>Shipping: </h4>
+        <p>Free</p>
+      </div>
+    </div>
+    <div class="grand-total">
+      <h3>Total:</h3>
+      <p class="total">
+        £18.00
+      </p>
+    </div>
+   </div>
+ </div>
+ 
+
+ <form form="#" class="payment">
+  <h1>
+    Payment Info 
+  </h1>
+  <div class="payment-method">
+    <div class="radios">
+      <h4>
+        Payment Method
+      </h4>
+      <div class="radio-option">
+        <input type="radio" name="payment" class="Credit" required>
+        <label>Credit Card</label>
+      </div>
+      <div class="radio-option">
+        <input type="radio" name="payment" class="paypal" required>
+        <label>Paypal</label>
+      </div>
+    </div>
+    <div class="card-details">
+      <div class="card-holder">
+        <label class="title">
+          Name on Card
+        </label>
+        <div class="input">
+          <input type="text" placeholder="John Doe" class="card-holder-input" required>
+        </div>
+      </div>
+      <div class="card-number">
+        <label>
+          Card Number
+        </label>
+        <div class="input">
+          <input type="text" class="card-no" placeholder="1234 5678 9012 3456" inputmode="numeric" pattern="\d{13,19}"  required>
+        </div>
+      </div>
+      <div class="expiry">
+        <label>
+          Expiration Date
+        </label>
+        <div class="input">
+         <input type="text" class="expiry-date" placeholder="MM/YY" pattern="\d{2}/\d{2}/" required>
+        </div>
+      </div>
+      <div class="address">
+        <label>
+          Postal Code
+        </label>
+        <div class="input">
+          <input type="text" class="zip" placeholder="12345" required>
+        </div>
+      </div>
+      <button type="submit" class="pay">Checkout</button>
+    </div>
+  </div>
+</form>
+</div>
+
+<div class="back">
+  <a href="shop.html">
+    <h1>
+      &lt; Continue Shopping
+    </h1>
+  </a>  
+</div>
+</body>
+
+<script src="scripts/cart.js"></script>
+</html>

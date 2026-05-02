@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+  <nav>
+  <div class="logo">
+    <a href="Home.html">
+      <img src="Images/logo/Bouquet-logo-10.svg" alt="Logo" width="150" height="150">
+    </a>
+  </div>
+
+  <div class="nav-right">
+    <ul class="navbar">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+    </ul>
+    <a href="cart.html" class="cart-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 
+          1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 
+          0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 
+          7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 
+          10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 
+          .75 0Zm7.5 0a.375.375 0 1 1-.75 0 
+          .375.375 0 0 1 .75 0Z"/>
+      </svg>
+      <span class="cart-count">0</span>
+    </a>
+  </div>
+</nav>
+
+  <section class="hero">
+    <div class="hero-image">
+      <img src="Images/hero-page/IMG_7342.JPG" alt="Hero Image">
+    </div>
+    <div class="hero-content">
+      <h1>Blooms That Last Forever</h1>
+      <h2>Custom-made fabric florals for weddings, gifts, and keepsakes.</h2>
+      
+      <a href="shop.html"><button>Shop now</button></a>
+    </div>
+  </section>
+  <section class="recently-added">
+    <h2>Just Added</h2>
+    <div class="products">
+      <div class="product-container">
+        <div class="product-image">
+          <img src="Images/test-imgs/bq1.jpg" alt="Bouquet 1">
+          <div class="arrow left">&lt;</div>
+          <div class="arrow right">&gt;</div>
+          <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+        <div class="name-price">
+          <div class="name">Bouquet Of 3 - Red</div>
+          <div class="price">£6.99</div>
+        </div>
+        <button class="add-to-cart" data-id="${product.id}">Add to Cart</button>
+      </div>
+  </section>
+
+  <section class="testomonials">
+    <div class="test 1">
+      <p class="name"> James R.</p>
+      <p class="location">,Shoreditch</p>
+      <p class="content">"Perfect for our flat — looks gorgeous and no maintenance, which is ideal. The delivery was quick and the packaging was really thoughtful."</p>
+      <p class="stars">★★★★★</p>
+      <div class="date-prod">
+        <p class="date">February, 2024</p>
+        <p class="prod">Bouquet Of 3 - Red</p>
+      </div>
+    </div>
+
+        <div class="test 2">
+      <p class="name"> Alex M.</p>
+      <p class="location">,Islington</p>
+      <p class="content">"Got a bouquet for my partner’s birthday and she was over the moon. Still looks just as good months later. Great value."</p>
+      <p class="stars">★★★★</p>
+      <div class="date-prod">
+        <p class="date">  March, 2024</p>
+        <p class="prod">Rose Of 1 - Red</p>
+      </div>
+    </div>
+
+        <div class="test 3">
+      <p class="name"> Nina K.</p>
+      <p class="location">,Camden</p>
+      <p class="content">"As someone with allergies, fresh flowers were never an option. These look just as beautiful and I don’t have to sneeze my way through the week."</p>
+      <p class="stars">★★★★★</p>
+      <div class="date-prod">
+        <p class="date">February, 2024</p>
+        <p class="prod">Rose Of 1 - Blue</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="features">
+    <div class="first">
+      <div class="point-first">
+        <div class="icon">
+          <img src="Images/icons/Artboard 3.png" alt="">
+        </div>
+        <div class="text">
+          <h3>Allergy Friendly</h3>
+          <p>Say goodbye to sneezing or itchy eyes. Our fabric bouquets are made from hypoallergenic materials, so you can enjoy their vibrant beauty.</p>
+        </div>
+      </div>
+
+      <div class="point-second">
+        <div class="icon">
+          <img src="Images/icons/Artboard 1.png" alt="">
+        </div>
+        <div class="text">
+          <h3>Timeless Beauty</h3>
+          <p>Our fabric flowers are carefully designed to retain their beauty for years. Unlike fresh flowers, you can enjoy them long after your event as a timeless keepsake.</p>
+        </div>
+      </div>
+
+      <div class="point-third">
+        <div class="icon">
+          <img src="Images/icons/Artboard 2.png" alt="">
+        </div>
+        <div class="text">
+          <h3>Customizable</h3>
+          <p>Choose from a variety of colors, styles, and arrangements to create the perfect bouquet that matches your vision.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  
+    <div class="toast-noti">
+    <p>Item added to cart!</p>
+    <button class="close-btn">X</button>
+    <div class="toast-progress"></div>
+  </div>
+
+</body>
+
+<script src="scripts/home.js"></script>
+</html>

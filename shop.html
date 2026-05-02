@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="stylesheet" href="styles/shop.css">
+</head>
+<body>
+<nav>
+  <div class="logo">
+    <a href="Home.html">
+                  <img src="Images/logo/Bouquet-logo-10.svg" alt="Logo" width="150" height="150">
+    </a>
+  </div>
+
+  <div class="nav-right">
+    <ul class="navbar">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+    </ul>
+    <a href="cart.html" class="cart-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 
+          1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 
+          0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 
+          7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 
+          10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 
+          .75 0Zm7.5 0a.375.375 0 1 1-.75 0 
+          .375.375 0 0 1 .75 0Z" />
+      </svg>
+      <span class="cart-count"></span>
+    </a>
+  </div>
+</nav>
+
+    <header>
+      <h1>
+        Bouquets
+      </h1>
+      <p>
+        <span>Note</span> - Only 3 bouquets a week - orders beyond that will be pushed to the next
+        available week.
+      </p>
+    </header>
+
+    <div class="search-bar">
+        <input class="search" type="search" placeholder="Search">
+        <button class="search-btn">Search</button>
+      </div>
+
+    <div class="sort-filter">
+      <h3>Filters</h3>
+      <div class="filters">
+        <select  id="filter-select">
+          <option value="">All Colors</option>
+          <option value="red">Red</option>
+          <option value="pink">Pink</option>
+          <option value="blue">Blue</option>
+        </select>
+      </div>
+      <h3>Sort</h3>
+      <div class="sort">
+        <select  id="sort-select">
+          <option value="">No sort</option>
+          <option value="price-low-high">Low - High</option>
+          <option value="price-high-low">High - Low</option>
+        </select>
+      </div>
+    </div>
+    <div class="sections">
+      <div class="products">
+        <div class="product-container">
+          <div class="product-image">
+            <img src="Images/product-imgs/product-1/IMG_7281.JPG" alt="Bouquet 1">
+            <div class="arrow left">&lt;</div>
+            <div class="arrow right">&gt;</div>
+            <div class="dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+          <div class="name-price">
+            <div class="name">Bouquet name 1</div>
+            <div class="price">£6.99</div>
+          </div>
+        </div>
+        
+    </div>
+    </div>
+  <div class="pagination">
+    <button class="page-btn active">1</button>
+  </div>
+
+  <div class="toast-noti">
+    <p>Item added to cart!</p>
+    <button class="close-btn">X</button>
+    <div class="toast-progress"></div>
+  </div>
+
+  </body>
+
+  <script src="scripts/shop.js"></script>
+  </html>
