@@ -1,5 +1,9 @@
 # Bouquet-E-Commerce-Website
 
+## Description
+
+A Multipage E-Commerce website made with JavaScript, showcases the products the website is selling, testimonial cards from previous buyers and the benefits of owning the products. Contains a Home page, shopping page, products page, carts page and a confirmation page which simulates buying a product.
+
 ## Screenshots
 
 <img width="1884" height="912" alt="image" src="https://github.com/user-attachments/assets/47392f70-b092-47db-9e6b-5ee6776fd953" />
@@ -17,10 +21,6 @@
 <img width="1882" height="939" alt="image" src="https://github.com/user-attachments/assets/acf69594-5e1f-4ebb-962c-57b139cd0f85" />
 
 <img width="1873" height="880" alt="image" src="https://github.com/user-attachments/assets/6b98a6ec-220e-4544-9c02-df4db50019e5" />
-
-## Description
-
-A Multipage E-Commerce website made with JavaScript, showcases the products the website is selling, testimonial cards from previous buyers and the benefits of owning the products. Contains a Home page, shopping page, products page, carts page and a confirmation page which simulates buying a product.
 
 # Tech Used
 - HTML
